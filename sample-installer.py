@@ -276,7 +276,7 @@ class Agreement(Frame):
 
             scrollbar1.pack(side = RIGHT, fill = Y)
 
-            list1 = Listbox(self, yscrollcommand=scrollbar1.set, fill=X)
+            list1 = Listbox(self, yscrollcommand=scrollbar1.set)
 
             for line in agreementtext.split("\n"):
 
